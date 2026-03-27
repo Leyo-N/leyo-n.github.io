@@ -1,12 +1,12 @@
-# __About Me__📓
+# About Me📓
 * Horticulture Student
 * Aspiring Web Developer
 * Currently Learning HTML
-# __What I'm Doing__📝
+# What I'm Doing📝
 * Learning HTML Semantic
 * Building Projects
-# __Projects__💻
+# Projects💻
 
-# __Contact__📫
+# Contact📫
 * Email: stirrfn@gmail.com
 * Linkedin: 
