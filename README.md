@@ -1,2 +1,2 @@
-# leyo-n.github.io
+# leyo-n
 My personal portfolio
