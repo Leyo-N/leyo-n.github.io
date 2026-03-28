@@ -11,6 +11,7 @@ a:active {
   color: inherit;
   text-decoration: none;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -231,7 +232,6 @@ section:hover {
   margin-top: 50px;
   text-shadow: 0 1px 20px rgb(20, 139, 157);
 }
- 
 .skill-card1 {
   height: 250px;
   width: 300px;
@@ -280,3 +280,4 @@ section:hover {
   margin-bottom: 30px;
   font-size: 40px;
 }
+/*End of Skills*/
