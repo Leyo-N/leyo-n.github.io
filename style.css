@@ -1,6 +1,90 @@
+h1 {
+  font-size: 85px;
+  padding: 5px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center p {
+  color: rgb(217, 217, 217);
+  text-shadow: 0 2px 1px rgb(84, 84, 84);
+  margin-top: 10px;
+  padding: 2px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.center span {
+  color: white;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
+  text-shadow: 2px 5px 3px gray;
+  transition: color 0.2s ease;
+}
+
+.center span:hover {
+  color: rgb(219, 219, 219);
+  -webkit-text-stroke: 3px rgb(253, 253, 253);
+}
+
 body {
   font-family: tahoma;
-}
-h2 {
   font-weight: bold;
+  transition: opacity 0.4s ease;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+body.home {
+  background-color: rgb(249, 188, 19);
+}
+
+body.about {
+  background-color: rgb(74, 74, 74);
+}
+
+body.skills {
+  background-color: rgb(2, 170, 212);
+}
+
+body.projects {
+  background-color: rgb(249, 27, 138);
+}
+
+body.contact {
+  background-color: rgb(61, 255, 126);
+}
+
+nav {
+  color: white;
+  text-align: right;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.navbutton {
+  display: inline-block;
+  align-items: flex-start;
+  padding: 2px;
+}
+
+.navbutton:hover {
+  color: rgb(214, 212, 212);
+  transition: color 0.3s ease;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
 }
