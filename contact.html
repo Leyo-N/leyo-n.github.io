@@ -21,14 +21,32 @@
         </nav>
       </header>
     </div>
-    <div>
+    <div class="wrapper">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>If you would like to reach out, please feel free to fill out the form, and I will respond as soon as possible.</p>
+        <p>If you want to contact me directly send your email to: stirrfn@gmail.com</p>
+      </h2>
       <form action="https://forminit.com/f/58vf6caq64f" method="POST">
-        <input type="text" name="fi-sender-firstName" placeholder="First Name" required />
-        <input type="text" name="fi-sender-lastName" placeholder="Last Name" required />
-        <input type="email" name="fi-sender-email" placeholder="Email" required />
-        <textarea name="fi-text-message" placeholder="Message" required></textarea>
-        <input type="hidden" name="_redirect" value="thanks.html">
-        <button type="submit">Submit</button>
+        <div class="message">
+          <label for="name">Your Name:*</label>
+          <br>
+          <input type="text"
+          name="fi-sender-firstName" placeholder="First Name" required minlength="2" maxlength="50"/>
+          <br>
+          <input type="text" name="fi-sender-lastName" placeholder="Last Name" required minlength="2" maxlength="50"/>
+          <br>
+          <label for="email">Email:*</label>
+          <br>
+          <input type="email" name="fi-sender-email" placeholder="Your Email Address" required maxlength="50"/>
+          <br>
+          <label for="message">Message:*</label>
+          <br>
+          <textarea name="fi-text-message" placeholder="Type your message here..." required maxlength="500"></textarea>
+          <input type="hidden" name="_redirect" value="thanks.html">
+          <br>
+          <button type="submit">Submit &#9658;</button>
+        </div>
       </form>
     </div>
     </body>
